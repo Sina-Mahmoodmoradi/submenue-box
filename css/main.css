@@ -1,0 +1,71 @@
+body {
+  font-family: arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(50, 175, 165);
+}
+#button img {
+  border: 3px solid orangered;
+  border-radius: 50%;
+}
+#button img:hover {
+  cursor: pointer;
+}
+
+.image {
+  width: 50px;
+}
+#container {
+  display: none;
+  margin-top: 100px;
+  transition-duration: 1000ms;
+}
+
+#container.show {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 2px;
+}
+
+#littleBox {
+  width: 10px;
+  height: 10px;
+  /* border: 1px solid black; */
+  align-self: center;
+  transform: rotate(45deg);
+  position: relative;
+  top: -5px;
+  background-color: white;
+}
+#title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px 30px;
+}
+#username {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+#job {
+  font-size: 17px;
+}
+.link {
+  margin: 12px 5px;
+  display: flex;
+  align-items: center;
+}
+.link div {
+  position: relative;
+  left: 10px;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
